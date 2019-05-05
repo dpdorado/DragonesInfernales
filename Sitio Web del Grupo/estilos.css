@@ -10,6 +10,7 @@ header, section, footer, aside, nav, article, figure, figcaption,hgroup{
 body{
     /*background-image: url("./Images/fuego.jpg");
     background-image: url("./Images/fondo_prueba.jpg");*/
+	background-image:url("./Images/fondo_prueba.jpg");
     font-family: Arial;
 }
 body #bodImg{
@@ -82,6 +83,11 @@ h3 {
     float: left;
     width: 25%;
     margin: 1% 2%; 
+	position: relative;
+	padding-bottom: 56.25%; /* 16/9 ratio */
+	padding-top: 0px; /* IE6 workaround*/
+	height: 0;
+	overflow: hidden;
 }
 .pie{
     color:white;
