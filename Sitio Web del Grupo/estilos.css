@@ -8,8 +8,13 @@ header, section, footer, aside, nav, article, figure, figcaption,hgroup{
 }
 
 body{
-    background-image: url("./Images/fuego.jpg");
+    /*background-image: url("./Images/fuego.jpg");
+    background-image: url("./Images/fondo_prueba.jpg");*/
     font-family: Arial;
+}
+body #bodImg{
+    width: 100%;
+    position: absolute;
 }
 
 .contenedor{
