@@ -1,0 +1,13 @@
+.imagen_personaje{
+    float: left;
+    width: 50%;
+}
+.datos_personales{
+    float: right;
+    width: 50%;
+}
+.video{
+    width: 80%;
+    height: 80%; 
+}
+
