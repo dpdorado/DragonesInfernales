@@ -1,68 +1,52 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="Ejemplo de HTML5"/>
-        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
-        <title>Dragones Infernales.</title>
-        <link rel="stylesheet" href="estilos.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Dragones Infernales</title>
+        <link rel="stylesheet" href="estilos.css"> 
     </head>
     <body>
-        <!--<img id="bodImg" alt="" src="./Images/fondo_prueba.jpg"/>-->
-        <div class="contenedor">
-            <header class="cabecera">
-                <div id="Logo">
-                    <img id="logo" alt="" src="./Images/logo.png"/>
+        <div id="agrupar" class="contenedor">
+            <header id="cabecera">
+                <div id="dLogo">
+                    <img id="logo" src="Images/logo.png" alt="varLogo"/>
                 </div>
-                <div id="Title">
+                <div id="dTitle">
                     <h1>Dragones Infernales</h1>
-                </div>        
+                </div>              
             </header>
-            <nav id="menu_principal" class="menu">
-                <ul>
-                    <li>principal</li>
-                    <li>fotos</li>
-                    <li>videos</li>
-                    <li>contacto</li>
+            <nav id="menu">
+                <ul id="opciones">
+                    <li><a href="#">Principal</a></li>
+                    <li><a href="#">Otros</a></li>
                 </ul>
             </nav>
-            <section class="seccion">
-                <article class="articulo">
-                    <header>
-                        <hgroup>
-                            <h2>Ingeniería del Software III</h2>
-                        </hgroup>
-       
-                    </header>
-                    Aprendiendo a crear una pagina web.
-                    <footer>
-                        <p>comentarios (0)</p>
-                    </footer>
-                </article>
-                <article class="articulo">
-                    <header>
-                        <hgroup>
-                            <h2>Frases</h2>
-                        </hgroup>
-                    </header>
-		        <p>No intentes convertirte en un hombre de éxito, sino en un hombre de valor. Albert Einstein.</p><br/>
-			<p>En la vida hay algo peor que el fracaso: el no haber intentado nada. Franklin D. Roosvelt.</p><br/>
-                    <footer>
-                        <p>comentarios (0)</p>
-                    </footer>
-                    
+            <section id="seccion">
+				<article>
+					<div class="articulo">
+                      <h3>Ingeniería del Software III</h3><br/>
+                      <p>Aprendiendo a crear páginas web</p>
+                   </div>
+				</article>
+				 <article>
+                    <div class="articulo">
+                        <h3>Frases</h3><br/>
+						<p>No intentes convertirte en un hombre de éxito, sino en un
+                        hombre de valor. Albert Einstein.</p><br/>
+			            <p>En la vida hay algo peor que el fracaso: el no haber 
+                        intentado nada. Franklin D. Roosvelt.</p><br/>
+                     </div>
                 </article>
             </section>
-             <ol id="nombres" class="columna">
+            <ul id="columna">
                 <li><a href="#">Javier Arias</a></li>
-                <li><a href="./Jairo_Delgado/Jairo_Delgado.html">Jairo Delgado</a></li>
-                <li><a href="./DanielDorado/DanielDordo.html">Daniel Dorado</a></li>
+                <li><a href="Jairo_Delgado/Jairo_Delgado.html">Jairo Delgado</a></li>
+                <li><a href="Daniel_Dorado/Daniel_Dorado.html">Daniel Dorado</a></li>
                 <li><a href="./Rene_jalvin/Renejalvin.html">Rene Jalvin</a></li>
                 <li><a href="Daniel_Quesada/Daniel_Quesada.html">Daniel Quesada</a></li>
                 <li><a href="#">Carlos Ruiz</a></li>
-                <li><a href="./Formulario/Formulario.html">Sugerencias</a></li>
-             </ol>
-            <footer class="pie">
+             </ul>
+            <footer id="pie">
                 Derechos Reservados &copy; 2019-2020
             </footer>
         </div>
