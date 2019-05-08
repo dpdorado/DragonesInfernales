@@ -48,15 +48,7 @@ header, section, footer, aside, nav, article, figure, figcaption,hgroup{
 }
 
 body {
-    text-align: center;
-    background: rgb(47, 48, 47);
-    background: -moz-radial-gradient(center, ellipse cover, rgba(47, 48, 47)0%, rgba(22,19,21,1) 100%);
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(47, 48, 47)), color-stop(100%, rgba(22,19,21,1)));
-    background: -webkit-radial-gradient(center, ellipse cover, rgba(47, 48, 47) 0%, rgba(22,19,21,1) 100%);
-    background: -o-radial-gradient(center, ellipse cover, rgba(47, 48, 47) 0%, rgba(22,19,21,1) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, rgba(47, 48, 47) 0%, rgba(22,19,21,1) 100%);
-    background: radial-gradient(ellipse at center, rgba(47, 48, 47) 0%, rgba(22,19,21,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea485b', endColorstr='#161315', GradientType=1 );
+    background-image:url("../../Images/fondo_prueba.jpg");
 }
 
 #agrupar {
