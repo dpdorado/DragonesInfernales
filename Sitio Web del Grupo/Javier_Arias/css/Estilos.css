@@ -146,6 +146,7 @@ li{
     font: italic 14px verdana, sans-serif;
 }
 #pie {
+    color: #fff;
     clear: both;
     text-align: center;
     padding: 20px;
