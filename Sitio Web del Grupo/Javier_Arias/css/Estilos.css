@@ -183,9 +183,11 @@ figcaption {
 	position: relative;
 }
 .imagen-responsive{
+
 	float: left;
-    width: 40%;
-	position: relative;
+    width: 20%;
+    height: 10%;
+    position: relative;
 }
 .video-responsive {
 position: relative;
